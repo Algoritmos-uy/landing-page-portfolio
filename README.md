@@ -7,7 +7,7 @@ Este proyecto es una landing page de portafolio diseñada para desarrolladores f
 
 - **Diseño Responsivo**: Adaptado para dispositivos móviles y pantallas más grandes.
 - **Modo Oscuro**: Implementado con un botón de alternancia para cambiar entre temas claro y oscuro.
-- **Secciones Interactivas**: Uso de acordeones para organizar contenido como "Sobre mí", "Formación", "Idiomas", "Experiencia Profesional" y "Habilidades".
+- **Secciones Interactivas**: Uso de acordeones para organizar contenido como "Sobre mí", "Formación", "Idiomas", "Experiencia Profesional", "Habilidades" y "Portfolio".
 - **Botón flotante de WhatsApp**: Permite a los usuarios contactar fácilmente a través de WhatsApp.
 - **Descarga de CV**: Botón para descargar un archivo PDF del currículum.
 - **Integración con API**: Preparado para cargar datos dinámicos desde un archivo JSON.
