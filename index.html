@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="css/wap.css"> -->
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/acordeon.css">
+    <link rel="stylesheet" href="css/languages.css">
+    <link rel="stylesheet" href="css/experience.css">
+    <link rel="stylesheet" href="css/formacion.css">
+    <link rel="stylesheet" href="css/wap.css">
+    <link rel="stylesheet" href="css/habilidades.css">
+    <link rel="stylesheet" href="css/btn-con.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/dark-ligth.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:
+                wght@400;700&family=Roboto:wght@400;500;700&display=swap">
+
+    <script src="https://kit.fontawesome.com/ead9ad51f8.js" crossorigin="anonymous"></script>
+
+    <title>FRONT END DEVELOPER</title>
+</head>
+
+<body>
+    <!--BTN SELECTOR MODE DARK-->
+    <button aria-label="selecionar-modo" id="mode-selector"><i class="fas fa-adjust"></i></button>
+    <!--INICIO MAIN CONTAINER-->
+    <main class="main">
+        <!--INICIO HEADER-->
+        <header class="header">
+
+            <img src="img/perfil-IA.png" alt="Foto principal" class="photo">
+
+            <h1 class="title">Hola, soy Johnny</h1>
+
+            <div class="information">
+                <p class="job">
+                    <a href="#" target="_blank" title="linkedin">
+                        Front End Developer</a>
+                </p>
+                <p class="location"> Tu Ciudad - Pais</p>
+                <p class="phone">
+                    <a href="tel: 555999888" title="Hacer llamada">LLamar</a>
+                </p>
+                <p class="email">
+                    <a href="mailto: tucorreo@mail" title="Enviar Email">Enviar e-mail</a>
+                </p>
+            </div>
+            <!-- BTN DOWNLOAD CV -->
+            <div class="btn-con">
+                <a href="./assets/guia.pdf" target="blank" download="" title="Descarga Curriculum">
+                    <span class="btn-text">Descargar CV</span>
+                    <span class="btn-icon"><i class="fas fa-download"></i></span>
+                </a>
+            </div>
+        </header>
+        <!--FINAL HEADER-->
+        <!-- SECTION ABOUT -->
+        <section class="acordeon ">
+            <button class="trigger" type="button">
+                <h2>Sobre Mi</h2>
+            </button>
+
+            <div class="content">
+                <div class="sobremi">
+                    <p>Aca escribes un texto sobre ti </p>
+                </div>
+
+            </div>
+        </section>
+        <!--SECTION FORMACION -->
+        <section class="acordeon ">
+            <button class="trigger" type="button">
+                <h2>Formacion</h2>
+            </button>
+
+            <div class="content">
+                <ul class="formacion">
+                    <li>
+                        <span class="title facu">Programacion</span>
+
+                    </li>
+                    <li>
+                        <span class="title curso">Curso Programacion en python</span>
+
+                    </li>
+                    <li>
+                        <span class="title curso2">Bases de Datos SQL</span>
+
+                    </li>
+                    <li>
+                        <span class="title curso3"> Docker</span>
+
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- SECTION LANGUAGES -->
+        <section class="acordeon ">
+            <button class="trigger" type="button">
+                <h2>Idiomas</h2>
+            </button>
+
+            <div class="content">
+                <ul class="languages" id="profile.languages">
+                    <li>Español</li>
+                    <li>Portugues (BR)</li>
+                    <li>Ingles</li>
+                </ul>
+            </div>
+        </section>
+        <!-- SECTION EXPERIENCE -->
+        <section class="acordeon ">
+            <button class="trigger" type="button">
+                <h2>Experiencia Profesional</h2>
+            </button>
+            <div class="content">
+                <ul class="experience">
+                    <li>
+                        <span class="title github">Contenido Experiencia 1</span>
+                        <a href="https://www.google.com.uy" target="_blank" rel="noopener">www.google.com.uy</a>
+                    </li>
+                    <li>
+                        <span class="title github">Contenido Experiencia 2</span>
+                        <a href="https://www.google.com.uy" target="_blank" rel="noopener">www.google.com.uy</a>
+                    </li>
+                    <li>
+                        <span class="title github">Contenido Experiencia 3</span>
+                        <a href="https://www.google.com.uy" target="_blank" rel="noopener">www.google.com.uy</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- SECTION SKILLS -->
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Habilidades</h2>
+            </button>
+            <div class="content">
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Habilidades Profesionales:</h3>
+                        <ul>
+                            <li>
+                                <img src="assets/logos/python.png" alt="python" title="python" width="70px">
+                            </li>
+                            <li>
+                                <img src="assets/logos/docker1.png" alt="docker" title="docker" width="70px">
+                            </li>
+                            <li>
+                                <img src="assets/logos/sql.png" alt="sql" title="sql" width="70px">
+                            </li>
+                            <li>
+                                <img src="assets/logos/linux.png" alt="linux" title="linux" width="70px">
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="personal">
+                        <h3>Habilidades Personales:</h3>
+                        <ul>
+                            <li>Liderazgo</li>
+                            <li>Organización</li>
+                            <li>Facilidad de Comunicacion</li>
+                            <li>Trabajo en equipo</li>
+                            <li>Flexibilidad</li>
+                            <li>Compromiso con Resultados</li>
+                        </ul>
+                    </section>
+                </div>
+
+            </div>
+        </section>
+        </div>
+        </section>
+        <!--INICI FOOTER-->
+        <footer class="footer">
+            <p>Front End Developer 2025</p>
+            <a href="https://www.algoritmos.uy/" target="_blank" rel="noopener">
+                <p>Desarrollo: algoritmos.uy</p>
+
+            </a>
+        </footer>
+
+    </main>
+    <!--FIN MAIN CONTAINER-->
+    <!--FLOAT BUTTON WHATSAPP-->
+    <div>
+        <a href="https://api.whatsapp.com/send?phone=59899915972" target="_blank" rel="noopener"
+            title="Contactar por WhatsApp">
+            <img class="whatsapp" src="./assets/icons/whatsapp.png" alt="WhatsApp icon" />
+        </a>
+    </div>
+
+    <script src="./assets/js/acordeon.js"></script>
+    <script src="./assets/js/api.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/dark-ligth.js"></script>
+    <script src="./assets/js/scripts.js"></script>
+</body>
+
+</html>
